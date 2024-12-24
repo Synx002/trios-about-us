@@ -1,0 +1,39 @@
+:root {
+    --base-color-brand--dark-blue: #2b3467;
+    --base-color-brand--base-text: #7c7f8d;
+    --link-color--link-primary: var(--base-color-brand--dark-blue);
+    --text-color--text-primary: var(--base-color-brand--base-text);
+    --base-color-brand--red: #eb455f;
+    --background-color--background-primary: var(--base-color-brand--soft-blue);
+    --text-color--text-alternate: #ffffffb3;
+    --text-color--text-secondary: var(--base-color-brand--white);
+    --base-color-brand--mid-blue: #dee7f4;
+    --border-color--border-primary: var(--base-color-brand--white);
+    --base-color-brand--white: #fff;
+    --background-color--background-alternate: var(--base-color-brand--white);
+    --background-color--background-secondary: var(--base-color-brand--dark-blue);
+    --background-color--background-tertiary: var(--base-color-brand--red);
+    --text-color--text-error\<deleted\|variable-4a51c5d2-820c-a0d9-b49e-0e5d273c964f\>: var(--base-color-system--error-red-dark\<deleted\|variable-f7a8b234-8033-a5d6-4d85-0326277c2bf8\>);
+    --background-color--background-warning\<deleted\|variable-0aa1a7ce-e851-b6b5-66db-1a1a96e8e04b\>: var(--base-color-system--warning-yellow\<deleted\|variable-b0ee00e7-091a-a3f5-1619-b09d07f4475a\>);
+    --text-color--text-warning\<deleted\|variable-825aa1d8-b093-0b89-37c5-87d980df10f5\>: var(--base-color-system--warning-yellow-dark\<deleted\|variable-296491a7-483e-1229-36b5-e13808cc9004\>);
+    --base-color-brand--soft-blue: #ecf5ff;
+    --base-color-neutral--black: #000;
+    --border-color--border-secondary: #dee7f4;
+    --border-color--border-alternate: var(--base-color-brand--base-text);
+    --link-color--link-secondary: var(--base-color-brand--white);
+    --link-color--link-alternate: var(--base-color-brand--red);
+    --base-color-system--error-red-dark\<deleted\|variable-f7a8b234-8033-a5d6-4d85-0326277c2bf8\>: #3b0b0b;
+    --base-color-system--warning-yellow\<deleted\|variable-b0ee00e7-091a-a3f5-1619-b09d07f4475a\>: #fcf8d8;
+    --base-color-system--warning-yellow-dark\<deleted\|variable-296491a7-483e-1229-36b5-e13808cc9004\>: #5e5515;
+}
+
+body {
+  font-family: 'YourFont', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+// Breakpoints
+@media (max-width: 768px) {
+  /* Style mobile */
+}
